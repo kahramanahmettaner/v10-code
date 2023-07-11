@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background="#333333"
+	android:baselineAligned="false">
+
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_weight="1"
+    android:background="@android:color/black"
+    android:layout_marginEnd="1px">
+    	<TextView
+        	android:id="@+id/tvSensorTyp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:text="@string/genDefaultText"
+			android:textSize="22sp"
+			android:textColor="#DDDDDD"/>
+    	<TextView
+        	android:id="@+id/tvSubTyp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/genDefaultText"
+			android:textColor="#DDDDDD"/>
+    	<TextView
+        	android:id="@+id/tvName"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/genDefaultText"
+			android:textColor="#DDDDDD"/>
+    	<TextView
+        	android:id="@+id/tvMinValue"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:text="@string/genDefaultText"
+			android:textSize="14sp"
+			android:textColor="#DDDDDD"/>
+    	<TextView
+        	android:id="@+id/tvMaxValue"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:text="@string/genDefaultText"
+			android:textSize="14sp"
+			android:textColor="#DDDDDD"/>
+	</LinearLayout>
+        
+    <LinearLayout
+		android:layout_width="100dp"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="end"
+    	android:background="@android:color/black" >
+
+        <TextView
+        	android:id="@+id/tvCurValue"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:text="@string/genDefaultText"
+			android:textSize="18sp"
+			android:textColor="#DDDDDD"/>
+
+		<TextView
+			android:id="@+id/tvDataType"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/genDefaultText"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:textColor="#DDDDDD"/>
+        
+    </LinearLayout>
+        
+  
+    
+
+
+</LinearLayout>

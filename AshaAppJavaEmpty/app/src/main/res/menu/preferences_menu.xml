@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itmLogger"
+        android:title="@string/itmLoggerText"
+        android:icon="@android:drawable/ic_menu_edit"/>
+
+    <item android:id="@+id/language"
+        android:title="@string/language"
+        android:icon="@android:drawable/ic_menu_preferences">
+        <menu>
+            <group android:id="@+id/language_group">
+                <item android:id="@+id/language_english" android:title="@string/language_english" />
+                <item android:id="@+id/language_german" android:title="@string/language_german" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/itmExit"
+        android:title="@string/itmExitText" />
+</menu>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="hello" translatable="false">Hello World, MainActivity!</string>
+    <string name="app_name" translatable="false">AshaAppJava</string>
+    <string name="refreshButton">Refresh</string>
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_german">German</string>
+    <string name="lblLogger">Show Logs</string>
+    <string name="discovered_devices">Discovered devices</string>
+    <string name="device_data">Device data</string>
+    <string name="connected_sensors">Connected sensors</string>
+    <string name="find_new_device">New Device was found. Name:</string>
+    <string name="search_started">Start searching for devices.</string>
+    <string name="search_ended">Search for devices over.</string>
+    <string name="time">time</string>
+    <string name="btnAktorSetValue">Set Value</string>
+    <string name="set_value">Do you want to set new value?</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="device_number">Number</string>
+    <string name="device_typ">Typ</string>
+    <string name="device_subtype">Subtype</string>
+    <string name="device_name">Name</string>
+    <string name="device_datatype">Data type</string>
+    <string name="device_bitdepth">Bitdepth</string>
+    <string name="device_scale">Scale</string>
+    <string name="min_value">Min value</string>
+    <string name="max_value">Max value</string>
+    <string name="cur_value">Cur value</string>
+    <string name="set_value_short">set value</string>
+    <string name="read_data">Read data</string>
+    <string name="brightness_sensor">Brightness sensor</string>
+    <string name="pressure_sensor">Pressure sensor</string>
+    <string name="humidity_sensor">Humidity sensor</string>
+    <string name="adc" translatable="false">ADC</string>
+    <string name="temperature_sensor">Temperature sensor</string>
+    <string name="digitalinput">Digitalinput</string>
+    <string name="datatyp_volt" translatable="false">Volt</string>
+    <string name="datatyp_ampere" translatable="false">Ampere</string>
+    <string name="datatyp_degree">Degree</string>
+    <string name="datatyp_bar" translatable="false">Bar</string>
+    <string name="datatyp_lux" translatable="false">Lux</string>
+    <string name="datatyp_second">Second</string>
+    <string name="datatyp_percent">Percent</string>
+    <string name="datatyp_number">Number</string>
+    <string name="datatyp_binary">Binary</string>
+    <string name="bt_not_enabled_leaving">Bluetooth ist deaktiviert. Beende App.</string>
+    <string name="imgIconDescr">ASHA Logo</string>
+    <string name="swSearchDevicesText">Search Devices?</string>
+    <string name="tvClickToConnectLabelText">Click on device to connect</string>
+    <string name="swFilterDevicesText">Filter Devices (MAC)?</string>
+    <string name="errNoBluetooth">No Bluetooth adapter!</string>
+    <string name="tvListHeaderText">Discovered devices</string>
+    <string name="errPermissionDenied">Permission Denied</string>
+    <string name="btnRefreshText">Refresh</string>
+    <string name="btnClearText">Clear</string>
+    <string name="itmLoggerText">Show Logs</string>
+    <string name="itmExitText">Exit App</string>
+    <string name="btnOkText">OK</string>
+    <string name="btnCancelText">Cancel</string>
+    <string name="exitConfirmTitle">Really exit?</string>
+    <string name="exitConfirmText">End application?</string>
+    <string name="btnBackText">Back</string>
+    <string name="genDefaultText">None</string>
+    <string name="genControlValue">Control Value</string>
+    <string name="genSensor">Sensor</string>
+    <string name="genActor">Actor</string>
+    <string name="adTitleSetValue">Set Value Dialog</string>
+    <string name="tvAktorSetValue">Set new Value</string>
+    <string name="tabDevice">Device</string>
+    <string name="tabHistory">History</string>
+    <string name="device_history">Device history</string>
+
+</resources>
